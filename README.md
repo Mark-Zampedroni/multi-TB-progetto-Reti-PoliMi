@@ -21,13 +21,13 @@ Il file txt in /data non usato dal tb ma utile per il debugging del codice che s
 
 ## Utilizzo
 
-Per progetti in anni diversi dal 2019/2020 va riscritto o modificato il generatore in modo da adattarlo alle specifiche.
+Per progetti in anni diversi dal 2019/2020 va riscritto o modificato il generatore in modo da adattarlo alle specifiche. Quello caricato genera 30 test a fini d'esempio, basta modificare l'indice per aumentarli.
 
 Nel file codice_tb.vhd leggere la prima riga commentata: vanno cambiati i path dei txt in base a dove si decida di salvarli, sconsiglio di metterli nella directory del progetto perchè potrebbe portare ad avere problemi in lettura. Va bene creare una cartelletta sul Desktop.
 
 Durante la simulazione il tb itera simulando una volta ognuno dei test generati casualmente, legge l'input da ram_content.txt e ne scrive man mano i risultati dividendoli in base all'esito su passati.txt e non_passati.txt.
 
-Una grande quantità di test potrebbe richiedere pochi secondi in simulazione Behavioral e parecchi minuti in simulazione Functional o Timing, garantendo però una copertura praticamente totale dei casi.
+Una grande quantità di test (nell'ordine di 10<sup>5</sup>) potrebbe richiedere pochi secondi in simulazione Behavioral e parecchi minuti in simulazione Functional o Timing, garantendo però una copertura praticamente totale dei casi.
 
 ### Note
 Grazie @davidemerli per aver trovato e sistemato un problema con la parte di test sul doppio start.
