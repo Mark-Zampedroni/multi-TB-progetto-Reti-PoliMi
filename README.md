@@ -19,6 +19,5 @@ I file txt in /data di interesse per il tb
 Il file txt in /data non usato dal tb ma utile per il debugging del codice che si sta testando 
 * <b>valori_test.txt</b> contiene l'elenco numerato dei test eseguiti con i valori della RAM e l'output atteso.
 
-Contribuenti
-@davidemerli
-@Stefano-Vanerio
+### Note
+Grazie @davidemerli per aver trovato e sistemato un problema con la parte di test sul doppio start.
