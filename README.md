@@ -8,3 +8,14 @@ L'idea alla base è di automatizzare il testing del codice scritto in modo da no
 
 ## Utilizzo
 
+* <b>codice_tb.vhd</b> è il codice del tb.
+* <b>Generatore_RAM_2020.py</b> genera molteplici inizializzazioni di valori nella RAM e l'output atteso da ogni singolo test.
+
+### I file txt generati sono
+
+I file txt in /data di interesse per il tb
+* <b>ram_content.txt</b> su cui itera il tb per leggere i valori di input.
+* <b>passati.txt</b> / <b>non_passati.txt</b> scritto dal tb per i risultati dei test.
+
+Il file txt in /data non usato dal tb ma utile per il debugging del codice che si sta testando 
+* <b>valori_test.txt</b> contiene l'elenco numerato dei test eseguiti con i valori della RAM e l'output atteso.
