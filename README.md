@@ -1,6 +1,6 @@
 # TB Progetto di Reti - Politecnico di Milano
 
-Il tb è stato ideato per l'esame dell'anno accademico 2019/2020, ma potenzialmente adattabile anche per i successivi (e precedenti).
+Il tb è stato ideato per l'esame dell'anno accademico 2019/2020.
 
 La memoria RAM fornita nelle specifiche del progetto usa sempre la stessa interfaccia, quindi con buona probabilità il tb sarà utilizzabile anche nei prossimi anni, al peggio apportando qualche modifica.
 
